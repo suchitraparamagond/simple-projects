@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 #load the data
-df=pd.read_csv('/content/Netflix Dataset_csv.csv')
+df=pd.read_csv('C:/Users/DELL/OneDrive/Desktop/github/Netflix Dataset_csv.csv')
 
 #clean the data
 df=df.dropna(subset=['type','title','director','country','date_added','release_year','rating','duration','listed_in'])
